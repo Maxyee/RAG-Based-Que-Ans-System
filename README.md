@@ -19,6 +19,54 @@ ng serve
 
 # Backend Setup
 
+
+
+```json
+// appsettings.json
+
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=SmartTaskManagement;Trusted_Connection=True;MultipleActiveResultSets=true",
+    "DefaultConnection2": "Server=localhost\\SQLEXPRESS;Database=SmartDb;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True"
+  },
+  "JwtSettings": {
+    "Secret": "YOUR-VERY-LONG-SECRET-KEY-HERE-MINIMUM-32-CHARACTERS",
+    "Issuer": "SmartTaskManagement",
+    "Audience": "SmartTaskManagementAPI",
+    "AccessTokenExpiryMinutes": 15,
+    "RefreshTokenExpiryDays": 7
+  },
+  "AiSettings": {
+    "ApiBaseUrl": "https://models.github.ai/inference/chat/completions",
+    "Model": "openai/gpt-4o-mini",
+    "GitHubToken": "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",
+    "DefaultTemperature": 0.7,
+    "MaxTokens": 1000,
+    "MaxRetries": 3,
+    "TimeoutSeconds": 30,
+    "EnableCaching": true,
+    "CacheDurationMinutes": 60
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "Serilog": {
+    "MinimumLevel": {
+      "Default": "Information",
+      "Override": {
+        "Microsoft": "Warning",
+        "System": "Warning"
+      }
+    }
+  },
+  "AllowedHosts": "*"
+}
+
+```
+
 Go inside the ./STMS-Backend/src/SmartTaskManagement.Infrastructure/
 
 ```bash
