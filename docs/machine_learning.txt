@@ -1,0 +1,5 @@
+
+        Machine Learning is a subset of AI that enables systems to learn from data.
+        It uses algorithms to find patterns in data without being explicitly programmed.
+        Common types include supervised learning, unsupervised learning, and reinforcement learning.
+        

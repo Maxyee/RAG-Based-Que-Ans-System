@@ -1,0 +1,5 @@
+
+        Deep Learning is a subset of machine learning that uses neural networks.
+        These networks have multiple layers that can learn hierarchical representations.
+        Deep learning has been particularly successful in computer vision and NLP tasks.
+        

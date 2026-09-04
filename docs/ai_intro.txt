@@ -1,0 +1,5 @@
+
+        Artificial Intelligence (AI) is the simulation of human intelligence in machines.
+        The goals of AI include learning, reasoning, and perception.
+        AI is being used across industries including healthcare, finance, and transportation.
+        

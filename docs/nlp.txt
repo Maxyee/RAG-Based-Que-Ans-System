@@ -1,0 +1,5 @@
+
+        Natural Language Processing (NLP) helps computers understand human language.
+        It combines linguistics, computer science, and AI to process text and speech.
+        Applications include translation, sentiment analysis, and chatbots.
+        
